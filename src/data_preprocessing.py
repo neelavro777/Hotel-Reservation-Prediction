@@ -141,6 +141,8 @@ class DataProcessor:
             train_df = self.balance_data(train_df)
             test_df = self.balance_data(test_df)
 
+            #We don't Select Features for test dataframe 
+            # As relationship between those features might be different compared to the Train Dataframe
             train_df = self.select_features(train_df)
             test_df = test_df[train_df.columns]  
 

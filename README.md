@@ -25,7 +25,7 @@
 
 ## Folder Structure 
 
-- ```
+```
 Hotel-Reservation-Prediction/
 │
 ├── artifacts/                    # Generated artifacts

@@ -48,7 +48,7 @@ Hotel-Reservation-Prediction/
 │   └── training_pipeline.py      # Complete training pipeline
 │
 ├── src/                          # Source code
-│   ├── data_ingestion.py         # Data ingestion from GCP
+│   ├── data_ingestion.py         # Data ingestion from GCP Bucket
 │   ├── data_preprocessing.py     # Data preprocessing pipeline
 │   ├── model_training.py         # Model training with MLFlow
 │   ├── logger.py                 # Logging configuration
